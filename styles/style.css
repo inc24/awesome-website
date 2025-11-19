@@ -1,18 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
 }
 
 header, footer {
     background-color: #1f2937;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
+header {
+    padding: 1rem;
 }
 
 .header-content { /*add other elemets*/
@@ -31,7 +33,7 @@ ul {
     color: #f9faf8;
 }
 
-.header-content > ul {
+.header-content ul {
     display: flex;
     list-style: none;
     gap: 20px;
