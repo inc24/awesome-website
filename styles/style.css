@@ -19,8 +19,7 @@ body {
     background-color: var(--background-dark);
 }
 
-
-.header-content, .hero-content { /*add other elemets*/
+.header-content, .hero-content, .reviews-content { /*add other elemets*/
     max-width: 1100px;
     margin: auto;
 }
@@ -69,6 +68,10 @@ body {
     margin-bottom: 1rem;
 }
 
+.hero-content .info {
+    color: #e5e7eb;
+}
+
 .hero-content .main-button {
     font-size: 18px;
     font-weight: bold;
@@ -90,4 +93,48 @@ body {
     width: 50%;
     height: 250px;
     padding: 1rem;
+}
+
+.reviews {
+    padding: 4rem 1rem;
+    padding-bottom: 6rem;
+}
+
+.reviews .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.reviews .reviews-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+/* .reviews .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.reviews .card {
+    width: 200px;
+}
+
+.reviews .box {
+    border: 0.3rem solid #3882F6;
+    border-radius: 1rem;
+    width: 200px;
+    height: 200px;
+}
+
+.reviews .text {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 18px;
+    color: #1f2937;
 }
