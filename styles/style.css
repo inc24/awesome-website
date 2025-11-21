@@ -57,13 +57,13 @@ body {
     gap: 1rem;
 }
 
-.hero-content h1 {
+.hero-content .title {
     color: var(--title-light);
     font-size: 48px;
     margin-bottom: 0.5rem;
 }
 
-.hero-content p {
+.hero-content .text {
     color: #e5e7eb;
     font-size: 18px;
     margin-bottom: 1rem;
